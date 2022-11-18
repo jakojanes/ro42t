@@ -24,11 +24,32 @@
     color: black;
   }
   
+  .tekst{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding: 2px;
+    
+    
+    
+  }
+  .pilt{
+    width: 20%;
+    float: left;
+    margin-right: 10px;
+    border: 1px;
+
+  }
+ 
 
   .countdown {
-    padding: 30px;
+    width: 100%;
     background-color: #bdddee;
     margin-top: 45px;
+    padding-top: 5px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  body{
+    background-color: #bdddee;
+    
   }
