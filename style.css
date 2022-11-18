@@ -2,7 +2,7 @@
 .navbar {
     overflow: hidden;
     background-color: rgb(1, 209, 241);
-    position: fixed; 
+    position:sticky ;
     top: 0; 
     width: 100%; 
   }
@@ -23,33 +23,56 @@
     background: #ddd;
     color: black;
   }
-  
-  .tekst{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-    padding: 2px;
-    
-    
-    
-  }
-  .pilt{
-    width: 20%;
-    float: left;
-    margin-right: 10px;
-    border: 1px;
 
-  }
  
 
   .countdown {
     width: 100%;
     background-color: #bdddee;
-    margin-top: 45px;
-    padding-top: 5px;
+    padding-top: 10px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   body{
     background-color: #bdddee;
     
+  }
+  
+  .container{
+    margin-top: 10px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    border:2px solid black;   
+  }
+  .container-parem{
+    margin-top: 10px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    border:2px solid black;  
+  }
+.tekst{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  margin-right: 20px;
+}
+.tekst-parem{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  margin-left: 20px;
+
+}
+.pilt-parem{
+  width: 20%;
+  float: right;
+  margin-left: 10px;
+  border: 1px;
+}
+  .pilt{
+    width: 20%;
+    float: left;
+    margin-right: 10px;
+    border: 1px;
+
   }
