@@ -1,13 +1,21 @@
 
 .navbar {
     overflow: hidden;
-    background-color: rgb(1, 209, 241);
+    background-color: #ef798a;
     position:sticky ;
     top: 0; 
     width: 100%; 
   }
   
-
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px 0;
+  padding: 10px 0;
+  border-bottom: 2px solid;
+}
   .navbar a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     float: left;
@@ -28,13 +36,13 @@
 
   .countdown {
     width: 100%;
-    background-color: #bdddee;
+    background-color: #f7a9a8;
     padding-top: 10px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   body{
-    background-color: #bdddee;
+    background-color: #f7a9a8;
     
   }
   
@@ -42,37 +50,61 @@
     margin-top: 10px;
     padding: 2px;
     display: flex;
-    align-items: center;
-    border:2px solid black;   
+    align-items: center;  
+     
   }
   .container-parem{
     margin-top: 10px;
     padding: 2px;
     display: flex;
     align-items: center;
-    border:2px solid black;  
+     
   }
-.tekst{
+.container p{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   text-align: justify;
   margin-right: 20px;
 }
-.tekst-parem{
+.container-parem p{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   text-align: justify;
   margin-left: 20px;
 
 }
-.pilt-parem{
+.container-parem img{
   width: 20%;
   float: right;
   margin-left: 10px;
   border: 1px;
 }
-  .pilt{
+  .container img{
     width: 20%;
     float: left;
     margin-right: 10px;
     border: 1px;
 
   }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #EF798A;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    padding: 20px 40px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .button:hover {
+    background-color: #ddd;
+  }
+  
